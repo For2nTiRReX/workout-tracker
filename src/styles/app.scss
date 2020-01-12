@@ -1,6 +1,44 @@
 body {
-    background: #fff;
-    footer {
+    background: rgb(248, 243, 243);
+    font-weight: 600;
+}
 
+p {
+    margin: 0;
+}
+
+.top-title {
+    color: #111;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+  .top-line {
+      border-bottom: 1px solid #cacaca;
+  }
+
+
+.profile-logo {
+    display: flex;
+    padding: 20px 0;
+    img {
+        padding-right: 15px;
     }
 }
+
+
+
+
+
+  .defolt-box {
+    border: 1px solid #cacaca;
+    border-radius: 3%;
+padding: 10px;
+}
+
+
+
+
+
