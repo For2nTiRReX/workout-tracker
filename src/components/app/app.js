@@ -11,9 +11,9 @@ const App = () => {
             <div id="primary-container">
                 {/* Тут будет основной контент */}
 
-
+                {/* Первая страница НАЧАЛО */}
                 <div class="profile-logo">
-                    <img src="..//workout-tracker/public/img/SVG/user-check.svg"></img>
+                    <img src="img/SVG/user-check.svg"></img>
                     <div class="profile-user-name">
                         <p>UserName</p>
                         <p>Воркаутов: 6</p>
@@ -24,14 +24,45 @@ const App = () => {
 
                 <div class="workout-week defolt-box">
 
-                        <p>dsa</p>
-                        <p>dsa</p>
-                        <p>dsa</p>
-                        <p>dsa</p>
-                    
+                    <p>Воркаут за неделю</p>
+                    <p class="gray-lettering">Активность</p>
+                    <p>График</p>
+                    <p>График</p>
+                    <p>График</p>
+
+
+                </div>
+
+                <div class="workout-day defolt-box">
+
+                    <p>Ежедневный макрос</p>
+                    <p class="gray-lettering">Питание</p>
+                    <p>График</p>
+                    <p>График</p>
+                    <p>График</p>
+
+                    <div class="pro-open"> Открыть график с PRO</div>
+
+
                 </div>
 
 
+                <div class="charts-analytics">
+                <img src="img/SVG/pro-servise.svg"></img>
+
+                    <p>Графики,аналитика и исследования</p>
+                    
+                    <p class="gray-lettering">Следите за вашей хронологией в 1 МП, упражняйтесь в общем поднятом 
+                        весе или используйте лучшие наборы</p>
+                    
+
+                        <div class="pro-function"> Ознакомиться с PRO-функциями</div>
+                </div>
+
+
+
+
+                {/* Первая страница КОНЕЦ */}
 
                 {/* Тут будет основной контент */}
             </div>

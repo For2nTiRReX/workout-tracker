@@ -1,11 +1,29 @@
 body {
-    background: rgb(248, 243, 243);
+    background: #ffffff;
     font-weight: 600;
 }
 
 p {
     margin: 0;
 }
+
+// mass class
+
+.defolt-box {
+    border: 1px solid #cacaca;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.gray-lettering {
+    color: #828385;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+// mass class
 
 .top-title {
     color: #111;
@@ -15,30 +33,82 @@ p {
     font-size: 16px;
 }
 
-  .top-line {
-      border-bottom: 1px solid #cacaca;
-  }
+.top-line {
+    border-bottom: 1px solid #cacaca;
+}
 
 
 .profile-logo {
     display: flex;
     padding: 20px 0;
     img {
-        padding-right: 15px;
+        padding-right: 10px;
+    }
+}
+
+.workout-day {
+    position: relative;
+}
+
+
+.pro-open {
+    text-align: center;
+    background-color: rgba(56, 136, 241, 0.288);
+    padding: 10px;
+    border-radius: 5%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.charts-analytics {
+    text-align: center;
+    border: 1px solid #cacaca;
+    border-radius: 5%;
+    margin: 5px 0;
+    .gray-lettering {
+        margin-top: 10px;
+    }
+    img{
+        width: 10%;
+    }
+}
+
+.pro-function {
+    text-align: center;
+    background-color: #adaef7;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+
+
+// bottom nav НАЧАЛО
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2a3139;
+    box-shadow: 0px -3px 10px rgba(0,0,0,0.45);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    p{
+        color: #828385;
     }
 }
 
 
-
-
-
-  .defolt-box {
-    border: 1px solid #cacaca;
-    border-radius: 3%;
-padding: 10px;
+.icon-bottom {
+    text-align: center;
 }
 
 
+.icon-bottom p:hover{
+    color: #fff;
+}
 
 
-
+// bottom nav КОНЕЦ
