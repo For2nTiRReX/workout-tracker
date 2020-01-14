@@ -97,18 +97,26 @@ p {
     width: 100%;
     p{
         color: #828385;
+        color: #fff;
+    
     }
+
 }
 
 
 .icon-bottom {
     text-align: center;
+    opacity: 0.2;
+    transition: all 0.5s linear;
+    &:hover{
+        opacity: 1;
+    }
 }
 
 
-.icon-bottom p:hover{
-    color: #fff;
-}
+// .icon-bottom:hover p{
+//     color: #fff;
+// }
 
 
 // bottom nav КОНЕЦ
