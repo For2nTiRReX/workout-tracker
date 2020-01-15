@@ -9,32 +9,50 @@ const BottomNavigation = () => {
             <div class="bottom-nav">
 
                 <div class="profil icon-bottom">
-                <img src="img/SVG/user.svg"></img>
-                    <p>Профиль</p>
+
+                    <div class="wrap-img-bottom">
+                        <img src="img/SVG/user.svg"></img>
+                        <p>Профиль</p>
+                    </div>
+
+                    
                 </div>
 
 
-                <div class="profil icon-bottom">
-                <img src="img/SVG/user.svg"></img>
-                    <p>Профиль</p>
+                <div class="history icon-bottom">
+                    <div class="wrap-img-bottom">
+                        <img src="img/SVG/clock-o.svg"></img>
+                        <p>История</p>
+                    </div>
+                    
                 </div>
 
 
-                <div class="profil icon-bottom">
-                <img src="img/SVG/user.svg"></img>
-                    <p>Профиль</p>
+                <div class="workout icon-bottom">
+                    <div class="wrap-img-bottom">
+                        <img src="img/SVG/plus.svg"></img>
+                        <p>Воркаут</p>
+                    </div>
+                    
                 </div>
 
 
-                <div class="profil icon-bottom">
-                <img src="img/SVG/user.svg"></img>
-                    <p>Профиль</p>
+                <div class="exercises icon-bottom">
+                    <div class="wrap-img-bottom">
+                        <img src="img/SVG/gym.svg"></img>
+                        <p>Упражнения</p>
+                    </div>
+
+                    
                 </div>
 
 
-                <div class="profil icon-bottom">
-                <img src="img/SVG/user.svg"></img>
-                    <p>Профиль</p>
+                <div class="froze icon-bottom">
+                    <div class="wrap-img-bottom">
+                        <img src="img/SVG/ruler.svg"></img>
+                        <p>Замер</p>
+                    </div>
+                    
                 </div>
 
 

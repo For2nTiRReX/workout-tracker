@@ -94,9 +94,8 @@ p {
     box-shadow: 0px -3px 10px rgba(0,0,0,0.45);
     position: fixed;
     bottom: 0%;
-    width: 100%;
+    padding-top: 5px;
     p{
-        color: #828385;
         color: #fff;
     
     }
@@ -107,16 +106,24 @@ p {
 .icon-bottom {
     text-align: center;
     opacity: 0.2;
-    transition: all 0.5s linear;
+    transition: all 0.35s linear;
+    img{
+        width: 28px;
+        height: 28px;
+    }
     &:hover{
         opacity: 1;
     }
 }
 
+.wrap-img-bottom{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+// width: 20%;
+}
 
-// .icon-bottom:hover p{
-//     color: #fff;
-// }
 
 
 // bottom nav КОНЕЦ
