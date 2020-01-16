@@ -1,72 +1,33 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import AppTopBar from '../app-top-bar/app-top-bar';
 import BottomNavigation from '../bottom-navigation/bottom-navigation';
+import { workoutRoutes } from '../../configs'
+import Profile  from '../profile/profile';
+import History  from '../history/history';
+import Workout  from '../workout/workout';
+import Exercises  from '../exercises/exercises';
+import Measure  from '../measure/measure';
 
 import './../../styles/app.scss';
 
 const App = () => {
     return (
         <div id="app-root-component">
-            <AppTopBar />
-            <div id="primary-container">
-                {/* Тут будет основной контент */}
-
-                {/* Первая страница НАЧАЛО */}
-                <div class="profile-logo">
-                    <img src="img/SVG/user-check.svg"></img>
-                    <div class="profile-user-name">
-                        <p>UserName</p>
-                        <p>Воркаутов: 6</p>
-                    </div>
+            <Router>
+                <Route path='/:location' component={AppTopBar} />
+                <div id="primary-container">
+                    {/* Тут будет основной контент */}
+                    <Route path={workoutRoutes.profile.path} exact component={Profile} />
+                    <Route path={workoutRoutes.history.path} component={History} />
+                    <Route path={workoutRoutes.workout.path} component={Workout} />
+                    <Route path={workoutRoutes.exercises.path} component={Exercises} />
+                    <Route path={workoutRoutes.measure.path} component={Measure} />
+                    {/* Тут будет основной контент */}
                 </div>
-
-                <p>Панель мониторинга</p>
-
-                <div class="workout-week defolt-box">
-
-                    <p>Воркаут за неделю</p>
-                    <p class="gray-lettering">Активность</p>
-                    <p>График</p>
-                    <p>График</p>
-                    <p>График</p>
-
-
-                </div>
-
-                <div class="workout-day defolt-box">
-
-                    <p>Ежедневный макрос</p>
-                    <p class="gray-lettering">Питание</p>
-                    <p>График</p>
-                    <p>График</p>
-                    <p>График</p>
-
-                    <div class="pro-open"> Открыть график с PRO</div>
-
-
-                </div>
-
-
-                <div class="charts-analytics">
-                <img src="img/SVG/pro-servise.svg"></img>
-
-                    <p>Графики,аналитика и исследования</p>
-                    
-                    <p class="gray-lettering">Следите за вашей хронологией в 1 МП, упражняйтесь в общем поднятом 
-                        весе или используйте лучшие наборы</p>
-                    
-
-                        <div class="pro-function"> Ознакомиться с PRO-функциями</div>
-                </div>
-
-
-
-
-                {/* Первая страница КОНЕЦ */}
-
-                {/* Тут будет основной контент */}
-            </div>
-            <BottomNavigation />
+                <Route path='/:path' component={BottomNavigation} />
+            </Router>
         </div>
     );
 }
