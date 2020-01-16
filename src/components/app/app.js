@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 import AppTopBar from '../app-top-bar/app-top-bar';
 import BottomNavigation from '../bottom-navigation/bottom-navigation';
@@ -19,6 +19,7 @@ const App = () => {
                 <Route path='/:location' component={AppTopBar} />
                 <div id="primary-container">
                     {/* Тут будет основной контент */}
+                    <Redirect to={workoutRoutes.profile.path}/>
                     <Route path={workoutRoutes.profile.path} exact component={Profile} />
                     <Route path={workoutRoutes.history.path} component={History} />
                     <Route path={workoutRoutes.workout.path} component={Workout} />
