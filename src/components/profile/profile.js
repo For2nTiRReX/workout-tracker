@@ -16,8 +16,8 @@ const Profile = () => {
 
                     <div className="workout-week defolt-box">
 
-                        <p>Воркаут за неделю</p>
-                        <p className="gray-lettering">Активность</p>
+                        <h4>Воркаут за неделю</h4>
+                        <div>Активность</div>
                         <p>График</p>
                         <p>График</p>
                         <p>График</p>
@@ -26,8 +26,8 @@ const Profile = () => {
 
                     <div className="workout-day defolt-box">
 
-                        <p>Ежедневный макрос</p>
-                        <p className="gray-lettering">Питание</p>
+                        <h4>Ежедневный макрос</h4>
+                        <div>Питание</div>
                         <p>График</p>
                         <p>График</p>
                         <p>График</p>
@@ -49,6 +49,24 @@ const Profile = () => {
 
                             <div className="pro-function"> Ознакомиться с PRO-функциями</div>
                     </div>
+
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
+<div>dasda</div>
 
             {/* конец Тут будет верхняя панель */}
         </div>

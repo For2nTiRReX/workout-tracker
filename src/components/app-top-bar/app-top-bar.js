@@ -5,11 +5,14 @@ import { workoutRoutes, workoutLocal} from '../../configs'
 const AppTopBar = () => {
     let { location } = useParams();
     return (
-        <div>
+        <div className="main-top">
             {/* начало Тут будет верхняя панель 250x400 iphone7 */}
             <h2 className="top-title">
                 { workoutLocal.current === 'RU' ? workoutRoutes[location].labelRu : workoutRoutes[location].label }
             </h2>
+            <div>
+
+            </div>
             {/* конец Тут будет верхняя панель */}
         </div>
     );

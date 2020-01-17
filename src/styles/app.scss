@@ -16,16 +16,28 @@ p {
     border-radius: 5%;
     padding: 10px;
     margin: 10px 0;
+    color: #828385;
+    h4{
+        margin: 0;
+        margin-bottom: 8px;
+        color: #111;
+    }
 }
 
-.gray-lettering {
-    color: #828385;
-    font-weight: 400;
-    margin-top: 5px;
-}
 
 
 // mass class
+
+// #primary-container{
+//    position: fixed;
+//    top: 10%;
+//    bottom: 20%;
+// }
+
+// #app-root-component{
+//     position: fixed;
+//     top: 0%;
+// }
 
 .top-title {
     color: #111;
@@ -35,8 +47,15 @@ p {
     font-size: 16px;
 }
 
-.top-line {
+
+
+
+.main-top {
     border-bottom: 1px solid #cacaca;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #f0f0f0fd;
 }
 
 
@@ -86,12 +105,37 @@ p {
 }
 
 
+// History История начало 
+.history-time-weight-best{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.indicator{
+    display: flex;
+    align-items: center;
+    img{
+        width: 20px;
+        height: 20px;
+        padding-right: 9px;
+    }
+}
+
+.exercises-bestset{
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 0;
+}
+
+
+// History История конец 
+
+
 
 // bottom nav НАЧАЛО
 
 .bottom-nav {
-    display: flex;
-    justify-content: space-evenly;
     background-color: #2a3139;
     box-shadow: 0px -3px 10px rgba(0,0,0,0.45);
     position: fixed;
@@ -101,14 +145,24 @@ p {
         color: #fff;
     
     }
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 0;
+    }
 
 }
 
 
-.icon-bottom {
+.icon-bottom  {
     text-align: center;
     opacity: 0.2;
     transition: all 0.35s linear;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
     img{
         width: 28px;
         height: 28px;
@@ -123,7 +177,6 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
-// width: 20%;
 }
 
 
