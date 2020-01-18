@@ -38,12 +38,12 @@ const Profile = () => {
                     </div>
 
 
-                    <div className="charts-analytics">
+                    <div className="charts-analytics defolt-box">
                     <img src="img/SVG/pro-servise.svg" alt=""></img>
 
-                        <p>Графики,аналитика и исследования</p>
+                        <h4>Графики,аналитика и исследования</h4>
                         
-                        <p className="gray-lettering">Следите за вашей хронологией в 1 МП, упражняйтесь в общем поднятом 
+                        <p >Следите за вашей хронологией в 1 МП, упражняйтесь в общем поднятом 
                             весе или используйте лучшие наборы</p>
                         
 
@@ -66,7 +66,7 @@ const Profile = () => {
 <div>dasda</div>
 <div>dasda</div>
 <div>dasda</div>
-<div>dasda</div>
+<div>das11da</div>
 
             {/* конец Тут будет верхняя панель */}
         </div>
