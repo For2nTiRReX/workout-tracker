@@ -119,6 +119,52 @@ const Exercises = () => {
 
             </div>
 
+            <div class="exercises-description">
+
+        <div class="head-description">
+
+            <div class="exit-description">
+                X
+            </div>
+
+            <div class="name-exercises-description">
+                Planka
+            </div>
+
+            <div class="correct-description">
+                Править
+            </div>
+
+        </div>
+
+
+        <div class="nav-description">
+            <ul>
+                <li><a href="">Резюме</a></li>
+                <li><a href="">История</a></li>
+                <li><a href="">График</a></li>
+                <li><a href="">Рекорды</a></li>
+            </ul>
+        </div>
+
+        <div class="defolt-box-description-video">
+        <img src="img/SVG/pro-servise.svg" alt=""></img>
+
+        </div>
+
+        <div class="instruction-description">
+            Инструкция
+            <ol>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla laborum reprehenderit accusantium eos. Libero?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi distinctio hic earum quam.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ol>
+        </div>
+    </div>
+
+
+            
+
             {/* конец Тут будет верхняя панель */}
         </div>
     );
