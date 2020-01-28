@@ -7,21 +7,21 @@ const Exercises = () => {
 
 
 
-<div>
-<form type="search" name="q" >
+            <div>
+                <form type="search" name="q" >
 
 
-<input type="search"  id="text" placeholder="Поиск"></input>
+                    <input type="search" id="text" placeholder="Поиск"></input>
 
-</form>
+                </form>
 
 
-</div>
+            </div>
 
 
             <div className="alphabet">Недавние</div>
             <div className="list">
-                
+
                 <div className="list-training">
                     <div>
                         <img src="img/SVG/gym-exercise.svg"></img>
@@ -71,7 +71,7 @@ const Exercises = () => {
 
             <div className="alphabet">A</div>
             <div className="list">
-                
+
                 <div className="list-training">
                     <div>
                         <img src="img/SVG/gym-exercise.svg"></img>
@@ -119,51 +119,132 @@ const Exercises = () => {
 
             </div>
 
-            <div class="exercises-description">
+            <div className="exercises-hidden-box">
 
-        <div class="head-description">
+                <div className="head-hidden-box">
 
-            <div class="exit-description">
-                X
+                    <div className="exit-hidden-box">
+                        X
             </div>
 
-            <div class="name-exercises-description">
-                Planka
+                    <div className="name-exercises-hidden-box">
+                        Planka
             </div>
 
-            <div class="correct-description">
-                Править
+                    <div className="correct-hidden-box">
+                        Править
             </div>
 
-        </div>
+                </div>
 
 
-        <div class="nav-description">
-            <ul>
-                <li><a href="">Резюме</a></li>
-                <li><a href="">История</a></li>
-                <li><a href="">График</a></li>
-                <li><a href="">Рекорды</a></li>
-            </ul>
-        </div>
+                <div className="nav-hidden-box">
+                    <ul>
+                        <li><a href="">Резюме</a></li>
+                        <li><a href="">История</a></li>
+                        <li><a href="">График</a></li>
+                        <li><a href="">Рекорды</a></li>
+                    </ul>
+                </div>
 
-        <div class="defolt-box-description-video">
-        <img src="img/SVG/pro-servise.svg" alt=""></img>
+                <div className="defolt-hidden-box-video">
+                    <img src="img/SVG/pro-servise.svg" alt=""></img>
 
-        </div>
+                </div>
 
-        <div class="instruction-description">
-            Инструкция
+                <div className="instruction-hidden-box">
+                    Инструкция
             <ol>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla laborum reprehenderit accusantium eos. Libero?</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi distinctio hic earum quam.</li>
-                <li>Lorem ipsum dolor sit.</li>
-            </ol>
-        </div>
-    </div>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla laborum reprehenderit accusantium eos. Libero?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi distinctio hic earum quam.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ol>
+                </div>
 
 
-            
+                <div className="history-hidden-box">
+
+                    <div className="defolt-box">
+                        <h4>Дом</h4>
+                        <div>22:06, четверг, 11 июля 2019</div>
+                        <h4>Выполнено наборов</h4>
+                        <div>1 0:45</div>
+
+                    </div>
+
+                    <div className="defolt-box">
+                        <h4>Дом</h4>
+                        <div>22:06, четверг, 11 июля 2019</div>
+                        <h4>Выполнено наборов</h4>
+                        <div>1 0:45</div>
+
+                    </div>
+
+
+                    <div className="defolt-box">
+                        <h4>Дом</h4>
+                        <div>22:06, четверг, 11 июля 2019</div>
+                        <h4>Выполнено наборов</h4>
+                        <div>1 0:45</div>
+
+                    </div>
+
+                </div>
+
+
+                <div className="schedule-hidden-box">
+
+                    <div className="defolt-box">
+                        <div className="name-plus-option">
+                            <h4>
+                                Planka
+                            </h4>
+
+                            <div className="option">
+                                <div class="three-dots-menu">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+
+                                <div class="three-dots-menu">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>Общее время</div>
+
+                        <div className="all-time-schedule"> 3:50</div>
+
+
+
+                        <div className="pro-open">Открыть график с PRO</div>
+                        <div>График</div>
+                        <div>График</div>
+                        <div>График</div>
+                    </div>
+                </div>
+
+                <div className="highscores-hidden-box">
+                    <div> ЛИЧНЫЕ РЕКОРДЫ</div>
+                    <div>
+                        <div>Макс.Длительность</div>
+                        <div>0:45</div>
+                    </div>
+                </div>
+
+<div className="pro-function">Смотреть историю рекордов</div>
+
+            </div>
+
+
+
+
+
 
             {/* конец Тут будет верхняя панель */}
         </div>
