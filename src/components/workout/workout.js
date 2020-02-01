@@ -65,7 +65,7 @@ const Workout = () => {
                     Chin Up, Ab Wheel, Crunch and Plank
 
                     <div className="last-use-workout">
-                    <img src="img/SVG/clock-o history.svg"></img> 11 июля 2019 г.
+                    <img src="img/SVG/clock-o history.svg"></img> 11 июля 2019 г.ё
                     </div>
 
                 </div>

@@ -20,7 +20,6 @@ p {
     position: relative;
     h4{
         margin: 0;
-        margin-bottom: 8px;
         color: #111;
     }
 }
@@ -349,6 +348,7 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 .option{

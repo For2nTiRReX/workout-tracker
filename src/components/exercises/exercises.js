@@ -1,4 +1,5 @@
 import React from 'react';
+// import { workoutRoutes, workoutLocal} from '../../configs'
 
 const Exercises = () => {
     return (
