@@ -188,6 +188,12 @@ const Workout = () => {
 
 
             </div>
+
+            <div className="hidden-three-circles-menu">
+                <div className="hidden-three-circles-menu-item"><img src="img/SVG/plus-hidden-three-circles-menu.svg"></img>  Добавить в Siri</div>
+                <div className="hidden-three-circles-menu-item"><img src="img/SVG/duplicate-hidden-three-circles-menu.svg"></img>  Дублировать</div>
+                
+            </div>
             {/* конец Тут будет верхняя панель */}
 
         </div>

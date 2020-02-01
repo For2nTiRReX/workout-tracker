@@ -201,16 +201,14 @@ const Exercises = () => {
                             </h4>
 
                             <div className="option">
-                                <div class="three-dots-menu">
-                                    <div class="circle"></div>
-                                    <div class="circle"></div>
-                                    <div class="circle"></div>
+                                <div className="three-dots-menu">
+                                    <div className="circle"></div>
+                                    <div className="circle"></div>
+                                    <div className="circle"></div>
                                 </div>
 
-                                <div class="three-dots-menu">
-                                    <div class="circle"></div>
-                                    <div class="circle"></div>
-                                    <div class="circle"></div>
+                                <div className="dubl-arrow-menu">
+                                <img src="img/SVG/expand.svg"></img>
                                 </div>
                             </div>
 
@@ -242,7 +240,10 @@ const Exercises = () => {
             </div>
 
 
-
+            <div className="hidden-three-circles-menu">
+                <div className="hidden-three-circles-menu-item"><img src="img/SVG/plus-hidden-three-circles-menu.svg"></img>  Добавит...профиль</div>
+                
+            </div>
 
 
 

@@ -29,11 +29,27 @@ p {
     width: 43.5%;
 }
 
+// menu 2 dubl arrow 
+
+.dubl-arrow-menu {
+    background-color: rgba(56, 136, 241, 0.288);
+    display: flex;
+    padding: 0px 8px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    img{
+        width: 13px;
+    }
+}
+
+
+// menu 3 circle 
 
 .three-dots-menu {
     background-color: rgba(56, 136, 241, 0.288);
     display: flex;
-    padding: 10px 5px;
+    padding: 8px 5px;
     border-radius: 8px;
     justify-content: space-evenly;
 }
@@ -46,7 +62,35 @@ p {
     height: 5px;
     border-radius: 50%;
     outline: none;
+    margin: 0 2px;
   }
+
+  
+
+//   Hidden menu 3 circle
+
+.hidden-three-circles-menu {
+    background-color: #2a3139;
+    display: inline-block;
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+
+
+.hidden-three-circles-menu-item {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start; 
+    padding: 11px 15px;
+    img {
+        width: 17px;
+        margin-right: 10px;
+    }
+}
+
+
 
 
 
@@ -149,6 +193,9 @@ p {
     display: flex;
     justify-content: space-around;
 }
+
+
+
 
 
 // History История конец 
@@ -301,6 +348,7 @@ input{
 .name-plus-option {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .option{
