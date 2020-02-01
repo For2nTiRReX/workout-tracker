@@ -65,7 +65,7 @@ const Workout = () => {
                     Chin Up, Ab Wheel, Crunch and Plank
 
                     <div className="last-use-workout">
-                    <img src="img/SVG/clock-o history.svg"></img> 11 июля 2019 г.
+                    <img src="img/SVG/clock-o history.svg"></img> 11 июля 2019 г.ё
                     </div>
 
                 </div>
@@ -187,6 +187,12 @@ const Workout = () => {
 
 
 
+            </div>
+
+            <div className="hidden-three-circles-menu">
+                <div className="hidden-three-circles-menu-item"><img src="img/SVG/plus-hidden-three-circles-menu.svg"></img>  Добавить в Siri</div>
+                <div className="hidden-three-circles-menu-item"><img src="img/SVG/duplicate-hidden-three-circles-menu.svg"></img>  Дублировать</div>
+                
             </div>
             {/* конец Тут будет верхняя панель */}
 
