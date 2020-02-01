@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { workoutRoutes, workoutLocal} from '../../configs'
+import { workoutRoutes } from '../../configs'
 
 const BottomNavigation = () => {
     return (
@@ -14,7 +14,7 @@ const BottomNavigation = () => {
                             <li className={'profil icon-bottom'} key={key}>
                                 <NavLink to={route.path} className="wrap-img-bottom">
                                     <img src={`img/SVG/${route.icon}`} alt={key}></img>
-                                    <div>{workoutLocal.current === 'RU' ? route.labelRu : route.label}</div>
+                                    <div>{route.label}</div>
                                     {/* TODO: refactor locale logic */}
                                 </NavLink>
                             </li>

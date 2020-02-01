@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { workoutRoutes, workoutLocal} from '../../configs'
+import { workoutRoutes } from '../../configs'
 
 const AppTopBar = () => {
     let { location } = useParams();
@@ -8,7 +8,7 @@ const AppTopBar = () => {
         <div className="main-top">
             {/* начало Тут будет верхняя панель 250x400 iphone7 */}
             <h2 className="top-title">
-                { workoutLocal.current === 'RU' ? workoutRoutes[location].labelRu : workoutRoutes[location].label }
+                { workoutRoutes[location].label }
             </h2>
             <div>
 
