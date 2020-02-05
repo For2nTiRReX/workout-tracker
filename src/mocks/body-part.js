@@ -1,4 +1,4 @@
-export const bodyPart = [
+export const bodyPartId = [
     {id: 0, label: "Ключевые"},
     {id: 1, label: "Руки"},
     {id: 2, label: "Ноги"},

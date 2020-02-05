@@ -1,10 +1,10 @@
 export const exercises = [
     {
         id: 0, 
-        label: "Упражнение 0", 
-        bodyPart: 1, 
+        label: "Aerobics", 
+        bodyPartId: 5,  // id 
         exercisesData: [0],
-        summary: {img: "", instructions: `
+        summary: {img: "bike.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -14,10 +14,10 @@ export const exercises = [
     },
     {
         id: 1, 
-        label: "Упражнение 1", 
-        bodyPart: 1, 
-        exercisesData: [0],
-        summary: {img: "", instructions: `
+        label: "Arnold Press", 
+        bodyPartId: 7, 
+        exercisesData: [1,2],
+        summary: {img: "ple4i.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -27,10 +27,10 @@ export const exercises = [
     },
     {
         id: 2, 
-        label: "Упражнение 2", 
-        bodyPart: 1, 
-        exercisesData: [1,2],
-        summary: {img: "", instructions: `
+        label: "Yoga", 
+        bodyPartId: 5, 
+        exercisesData: [0],
+        summary: {img: "yoga.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -40,10 +40,10 @@ export const exercises = [
     },
     {
         id: 3, 
-        label: "Упражнение 3", 
-        bodyPart: 1, 
+        label: "Rack Pull", 
+        bodyPartId: 3, 
         exercisesData: [1,2],
-        summary: {img: "", instructions: `
+        summary: {img: "gym_shtanga.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -53,10 +53,10 @@ export const exercises = [
     },
     {
         id: 4, 
-        label: "Упражнение 4", 
-        bodyPart: 1, 
-        exercisesData: [1,2],
-        summary: {img: "", instructions: `
+        label: "Running", 
+        bodyPartId: [4], 
+        exercisesData: [0],
+        summary: {img: "run_beg.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -66,10 +66,10 @@ export const exercises = [
     },
     {
         id: 5, 
-        label: "Упражнение 5", 
-        bodyPart: 1, 
-        exercisesData: [1,2],
-        summary: {img: "", instructions: `
+        label: "Elliptical Machine", 
+        bodyPartId: 4, 
+        exercisesData: [0],
+        summary: {img: "gym_doroga.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.
@@ -79,10 +79,10 @@ export const exercises = [
     },
     {
         id: 6, 
-        label: "Упражнение 6", 
-        bodyPart: 1, 
+        label: "Bicep Curl", 
+        bodyPartId: 1, 
         exercisesData: [1,2],
-        summary: {img: "", instructions: `
+        summary: {img: "gym-exercise.svg", instructions: `
         1. Some very long description. Some very long description. Some very long description.
         2. Some very long description. Some very long description. Some very long description.
         3. Some very long description. Some very long description. Some very long description.

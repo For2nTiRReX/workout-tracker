@@ -1,8 +1,9 @@
 import React from 'react';
-// import { workoutRoutes, workoutLocal} from '../../configs'
+import { exercises} from '../../mocks/exercises';
 
 const Exercises = () => {
     return (
+
         <div>
             {/* начало Тут будет верхняя панель 250x400 iphone7 */}
 
@@ -23,7 +24,27 @@ const Exercises = () => {
             <div className="alphabet">Недавние</div>
             <div className="list">
 
-                <div className="list-training">
+
+            {exercises.map(exercise=>(
+                 <div className="list-training">
+                 <div>
+                     
+                     <img src={`img/SVG/${exercise.summary.img}`} alt={exercise.label}></img>
+                     
+                 </div>
+
+                 <div className="name-exercises">
+                     {exercise.label}
+                 <div className="indicator-body">
+                         <div className="part-body">{exercise.bodyPartId}  </div>
+                         {/* <div className="time-indicator-exercises">35 повт.</div> */}
+                     </div>
+                 </div>
+
+             </div>
+            ))}
+
+                {/* <div className="list-training">
                     <div>
                         <img src="img/SVG/gym-exercise.svg"></img>
                     </div>
@@ -66,7 +87,7 @@ const Exercises = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
 
